@@ -3,7 +3,7 @@ var app = express();
 
 const path = require('path');
 
-app.get('/',function(req,res){
+app.get('/home',function(req,res){
  res.sendFile(path.join(__dirname, 'index.html')); //__dirname : Ritorna la cartella del progetto
 });
 app.get('/about',function(req,res){
