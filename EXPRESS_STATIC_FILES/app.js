@@ -4,13 +4,13 @@ var app = express();
 const path = require('path');
 
 app.get('/',function(req,res){
- res.sendFile(path.join(__dirname, 'index.html')); //__dirname : Ritorna la cartella del progetto
+ res.sendFile(path.join(__dirname, 'home.html')); //__dirname : Ritorna la cartella del progetto
 });
-app.get('/about',function(req,res){
-    res.sendFile(path.join(__dirname,'about.html')); //__dirname : Ritorna la cartella del progetto
+app.get('/menupranzo',function(req,res){
+    res.sendFile(path.join(__dirname,'menupranzo.html')); //__dirname : Ritorna la cartella del progetto
    });
-   app.get('/sitemap',function(req,res){
-    res.sendFile(path.join(__dirname,'sitemap.html')); //__dirname : Ritorna la cartella del progetto
+   app.get('/scaricamenu',function(req,res){
+    res.sendFile(path.join(__dirname,'scaricamenu.html')); //__dirname : Ritorna la cartella del progetto
    });
    app.get('/menujson',function(req,res){
     res.sendFile(path.join(__dirname,'MenuSera.json')); //__dirname : Ritorna la cartella del progetto
