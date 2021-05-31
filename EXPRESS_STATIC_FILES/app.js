@@ -3,7 +3,7 @@ var app = express();
 
 const path = require('path');
 
-app.get('/home',function(req,res){
+app.get('/',function(req,res){
  res.sendFile(path.join(__dirname, 'index.html')); //__dirname : Ritorna la cartella del progetto
 });
 app.get('/about',function(req,res){
@@ -11,6 +11,9 @@ app.get('/about',function(req,res){
    });
    app.get('/sitemap',function(req,res){
     res.sendFile(path.join(__dirname,'sitemap.html')); //__dirname : Ritorna la cartella del progetto
+   });
+   app.get('/menujson',function(req,res){
+    res.sendFile(path.join(__dirname,'MenuSera.json')); //__dirname : Ritorna la cartella del progetto
    });
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');

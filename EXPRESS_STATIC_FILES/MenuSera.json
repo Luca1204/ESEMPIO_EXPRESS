@@ -1,0 +1,85 @@
+ {
+    "MenuSera": [
+        {"NomePiatto": "Nigiri al branzino",
+         "Porzione": "8 pezzi",
+         "Prezzo" : "7.99€"        
+        },
+
+
+        {"NomePiatto": "Sashimi di branzino",
+            "Porzione": "4 pezzi",
+            "Prezzo" : "6.99€"        
+           },
+
+
+
+
+
+           {"NomePiatto": "Sushi burger",
+            "Porzione": "80g",
+            "Prezzo" : "6.99€"        
+           },
+
+
+
+           {"NomePiatto": "Pokè di salmone, avocado, edamame e mango",
+            "Porzione": "150g",
+            "Prezzo" : "8.99€"        
+           },
+
+
+
+
+           {"NomePiatto": "Onigiri salmone",
+            "Porzione": "1 pezzo",
+            "Prezzo" : "1.99€"        
+           },
+
+
+
+
+
+           {"NomePiatto": "Chumaki Tonno",
+            "Porzione": "8 pezzi",
+            "Prezzo" : "7.99€"        
+           },
+
+
+
+
+
+           {"NomePiatto": "Temaki Salmone",
+            "Porzione": "1 pezzo",
+            "Prezzo" : "2.99€"        
+           },
+
+
+
+
+
+           {"NomePiatto": "Temaki Tonno",
+            "Porzione": "1 pezzo",
+            "Prezzo" : "2.99€"        
+           },
+
+
+
+
+
+           {"NomePiatto": "Chirashi Salmone",
+            "Porzione": "140g",
+            "Prezzo" : "4.99€"        
+           },
+
+
+
+
+
+           {"NomePiatto": "Futomaki tonno",
+            "Porzione": "6 pezzi",
+            "Prezzo" : "4.99€"        
+           }
+
+
+        ]}
+
